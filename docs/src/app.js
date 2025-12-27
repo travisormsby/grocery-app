@@ -66,7 +66,8 @@ function renderWeekDropdown(onChange) {
     const weekLabels = {
         'A Week Quantity': 'Week A',
         'B Week Quantity': 'Week B',
-        'C Week Quantity': 'Week C'
+        'C Week Quantity': 'Week C',
+        'D Week Quantity': 'Week D',
     };
     const select = document.createElement('select');
     WEEK_FIELDS.forEach(week => {
