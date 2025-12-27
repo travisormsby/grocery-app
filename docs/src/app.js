@@ -1,6 +1,6 @@
 import { getAllProducts, saveProducts, parseCSV } from './db.js';
 
-const WEEK_FIELDS = ['A Week Quantity', 'B Week Quantity', 'C Week Quantity'];
+const WEEK_FIELDS = ['A Week Quantity', 'B Week Quantity', 'C Week Quantity', 'D Week Quantity'];
 let currentWeek = WEEK_FIELDS[0];
 let isReadOnly = false;
 
