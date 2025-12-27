@@ -64,10 +64,10 @@ function renderJsonImportUI(onImport) {
 
 function renderWeekDropdown(onChange) {
     const weekLabels = {
-        'A Week Quantity': 'Week A',
-        'B Week Quantity': 'Week B',
-        'C Week Quantity': 'Week C',
-        'D Week Quantity': 'Week D',
+        'A Week Quantity': 'Hot Sandwich Week',
+        'B Week Quantity': 'Cold Sandwich Week',
+        'C Week Quantity': 'Egg Sandwich Week',
+        'D Week Quantity': 'Wrap Week',
     };
     const select = document.createElement('select');
     WEEK_FIELDS.forEach(week => {
